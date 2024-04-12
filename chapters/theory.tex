@@ -18,7 +18,47 @@
 
 \chapter{Theoretical Background}
 \label{Chapter::Theoretical_Background} % Outline text
-This chapter provides background knowledge to understand the concepts of Open Geospatial Consortium standards.
+This chapter provides background knowledge to understand the concepts of Open Geospatial Consortium standards and gives you an introduction to the ZOO-Project.
+
+
+\section{ZOO-Project}
+\label{Section:: ZOO-Project}
+
+\subsection{What is ZOO-Project?}
+ZOO-Project is a WPS (Web Processing Service) implementation written in C, Python and JavaScript. It is an open source platform which implements the WPS 1.0.0 and WPS 2.0.0 standards edited by the Open Geospatial Consortium (OGC).
+It provides the polyglot ZOO-Kernel, a server implementation of the Web Processing Service (WPS) (1.0.0 and 2.0.0) and the OGC API - Processes standards published by the OGC, https://zoo-project.github.io/docs/intro.html
+
+
+
+\subsubsection{WPS (Web Processing Service)}
+The OpenGIS® Web Processing Service (WPS) Interface Standard provides rules for standardizing how inputs and outputs (requests and responses) for geospatial processing services, such as polygon overlay. The standard also defines how a client can request the execution of a process, and how the output from the process is handled. It defines an interface that facilitates the publishing of geospatial processes and clients’ discovery of and binding to those processes. The data required by the WPS can be delivered across a network or they can be available at the server.
+
+WPS is a standardized protocol for publishing geospatial processes and algorithms over the web, allowing users to access and execute these processes remotely.
+
+https://www.ogc.org/standard/wps/
+
+ZOO-Project provides a developer-friendly framework for creating and chaining WPS compliant Web Services. Its main goal is to provide generic and standard-compliant methods for using existing open source librairies and algorithms as WPS. It also offers efficient tools for creating new innovative web services and applications.
+
+ZOO-Project is able to process geospatial or non geospatial data online. Its core processing engine (aka ZOO-Kernel) lets you execute a number of existing ZOO-Services based on reliable software and libraries. It also gives you the ability to create your own WPS Services from new or existing source code, which can be written in seven different programming languages. That lets you compose or turn code as WPS Services simply, with straightforward configuration and standard coding methods.
+
+ZOO-Project is very flexible with data input and output so you can process almost any kind of data stored locally or accessed from remote servers and databases. ZOO-Project excels in data processing and integrates new or existing spatial data infrastructures, as it is able to communicate with map servers and can integrate webmapping clients.
+https://zoo-project.github.io/docs/intro.html
+
+
+
+The ZOO-Project is an open-source software framework that provides a platform for building and deploying geospatial web services. While the Open Geospatial Consortium (OGC) develops standards for geospatial technologies, the ZOO-Project implements these standards and provides a framework for creating web services that adhere to OGC specifications.
+
+Here are some key differences:
+
+    Scope: OGC is an international consortium focused on developing and promoting standards for geospatial technologies, covering various aspects such as data formats, web services, and metadata. The ZOO-Project, on the other hand, is a specific software framework for building and deploying geospatial web services.
+
+    Role: OGC sets the standards that define how geospatial data and services should be structured and shared. The ZOO-Project implements these standards and provides a platform for creating web services that conform to OGC specifications.
+
+    Functionality: OGC standards define protocols and data formats for interoperability between different geospatial systems and applications. The ZOO-Project, meanwhile, provides tools and libraries for developing custom geospatial web services, such as spatial data processing, geoprocessing, and spatial analysis.
+
+
+
+    
 
 % Background topics that are necessary to understand your thesis
 \section{OGC Standards}
